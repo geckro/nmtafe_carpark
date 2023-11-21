@@ -10,3 +10,5 @@
 | Config     |                                          |                                             |
 
 ![Added stubs for classes](images/stubs-for-classes.png)
+
+![Tagging for initializing classes](images/tag_output.png)
