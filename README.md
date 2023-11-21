@@ -12,3 +12,5 @@
 ![Added stubs for classes](images/stubs-for-classes.png)
 
 ![Tagging for initializing classes](images/tag_output.png)
+
+![Added methods to the carpark class](images/s4_evidence.png)
