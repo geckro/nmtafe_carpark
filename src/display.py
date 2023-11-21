@@ -11,3 +11,7 @@ class Display:
         # Added some list comprehension to this in case is_on is off
         # Don't know exactly what "is on" refers to but i would assume this
         return f"Display {self.id}, {self.message, self.carpark if self.is_on else 'off'}"
+
+    def update(self, data):
+        for key, value in data.items():
+            print(f"{key}: {value}")
