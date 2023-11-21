@@ -8,3 +8,5 @@
 | Sensor     |                                          | activate_sensor()<br/>detect_car_presence() |
 | Display    |                                          | display_available_num_bays()                |
 | Config     |                                          |                                             |
+
+![Added stubs for classes](images/stubs-for-classes.png)
