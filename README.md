@@ -14,3 +14,10 @@
 ![Tagging for initializing classes](images/tag_output.png)
 
 ![Added methods to the carpark class](images/s4_evidence.png)
+
+ 1. Which class is responsible for each of the following pieces of information (and why)?
+      - The number of available bays
+      - The current temperature
+      - The time
+   2. What is the difference between an attribute and a property?
+   3. Why do you think we used a dictionary to hold the data we passed the display? List at least one advantage and one disadvantage of this approach
