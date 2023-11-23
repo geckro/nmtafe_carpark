@@ -1,6 +1,5 @@
 import random
 
-from carpark import Carpark
 from abc import ABC, abstractmethod
 
 
