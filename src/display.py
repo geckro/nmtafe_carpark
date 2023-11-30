@@ -1,7 +1,7 @@
 class Display:
     # NOTE:
     # Renamed id to display_id to stop potential interference with id()
-    def __init__(self, display_id, carpark, message="", is_on=False):
+    def __init__(self, display_id, carpark, message="Welcome to the car park", is_on=True):
         self.id = display_id
         self.message = message
         self.is_on = is_on
@@ -14,4 +14,5 @@ class Display:
 
     def update(self, data):
         for key, value in data.items():
+            self.message = value
             print(f"{key}: {value}")
