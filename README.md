@@ -31,3 +31,8 @@ But in order to use a dictionary, you will need to pack it into a dict, pass it 
 
 ![Unit tests - Display Failed](images/unit_test_display_failed.png)
 ![Unit tests - Display Failed](images/unit_test_display_ok.png)
+
+The car park register method should accept a Sensor or Display object. It should raise a TypeError if the object is neither a Sensor nor a Display. Before proceeding, think about where you would test this behaviour. Should you test it in the CarPark unit tests or the Sensor unit tests? Why?
+
+*It should be tested in the Carpark unit test, because the logic for registering sensors is in the Carpark class. You could test it in the Sensor unit test but it's not going to cover everything.*
+
